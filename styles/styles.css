@@ -1,0 +1,120 @@
+.section {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 30px 81px;
+                    background-color: cornsilk;
+}
+.header__logo {
+                    background-image: url(../assets/logo.svg);
+                    width: 118px;
+                    height: 13px;
+                    display: block;
+                    background-size: cover;
+
+}
+.header__btn-sign {
+                    text-transform: uppercase;
+                    text-align: center;
+                    width: 80px;
+                    height: 40px;
+                    line-height: 24px;
+                    margin-right: 16px;
+                    font-size: 13px;
+                    color: black;
+                    background-color: white;
+                    border-color: #E0E0E0;
+                    border-radius: 2px;
+                    font-family: 'Roboto', sans-serif;
+}
+.header__btn-sign:active {
+                    background-color: #57AD56;
+                    border-color: #57AD56;
+                    color: white;
+}
+.header__btn-register {
+                    text-transform: uppercase;
+                    text-align: center;
+                    width: 80px;
+                    height: 40px;
+                    line-height: 24px;
+                    margin-right: 16px;
+                    font-size: 13px;
+                    color: white;
+                    background-color: black;
+                    border-radius: 2px;
+                    font-family: 'Roboto', sans-serif;
+}
+.header__btn-register:active {
+                                        background-color: #57AD56;
+                                        border-color: #57AD56;
+                                        color: white;
+}
+
+
+
+.header__image {
+                    background-image: url(../assets/header-png.png);
+                    display: block;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+
+}
+.header__container {
+                    width: 389px;
+                    height: 204px;
+                    background-color: white;
+                    border-radius: 2px;
+                    position: relative;
+                    left: 80px;
+}
+.header__name {
+                    color: #1D1D1D;
+                    font-size: var(--title-font-size);
+                    line-height: var(--title-line-height);
+                    font-family: 'Roboto', sans-serif;
+                    left: 38px;
+                    top: 38px;
+                    position: relative;
+}
+.header__subtitle {
+                    color: #626262;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: var( --menu-font-size);
+                    line-height: var(--menu-line-height);
+                    position: relative;
+                    top: 102px;
+                    left: 38px;
+}
+.header__btn-time {
+                    font-size: var(--footer-font-size);
+                    line-height: var(--footer-line-height);
+                    font-family: 'Roboto', sans-serif;
+                    color: white;
+                    background-color: #262626;
+                    border-radius: 16px;
+                    width: 97px;
+                    height: 32px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    position: relative;
+                    top: 72px;
+                    left: 260px;
+}
+
+
+.header__list-items {
+                    display: flex;
+                    padding: 32px 81px;
+                    column-gap: 40px;
+                    color: #626262;
+                    font-family: 'Roboto', sans-serif;
+                    line-height: 19px;
+                    font-size: 16px;
+}
+.header__list-items:active {
+                    color: #57AD56;}
+
