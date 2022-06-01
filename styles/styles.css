@@ -1,4 +1,4 @@
-.section {
+.header__section {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
@@ -118,3 +118,59 @@
 .header__list-items:active {
                     color: #57AD56;}
 
+
+.main-title {
+                    padding: 50px 0 32px 81px;
+                    line-height: 34px;
+                    font-size: 22px;
+                    font-family: 'Roboto', sans-serif;
+                    color: #1D1D1D;
+
+}
+
+.main__menu-container {
+                    display: flex;
+                    background-color: white;
+                    width: 470px;
+                    height: 160px;
+}
+.main__menu-container:active {
+                    background-color: #757575;
+}
+.main__menu-items {
+                    margin-left: 16px;
+                    padding: 16px 0 0 0;
+                    height: 300px;
+}
+.main__menu-name {
+                    color: #1D1D1D;
+                    font-family: 'Roboto', sans-serif;
+                    line-height: 24px;
+                    font-size: 16px;
+                    margin-right: 16px;
+                    width: 270px;
+
+}
+.main__menu-description {
+                    color: #626262;
+                    font-family: 'Roboto', sans-serif;
+}
+.main__menu-cost {
+                    line-height: 21px;
+                    font-size: 15px;
+                    margin: 83px 0 16px 0;
+                    font-family: 'Roboto', sans-serif;
+                    
+}
+.main__menu-cost:nth-child(1) {
+                    margin-top: 62px;
+}
+
+
+.main__section {
+                    display: grid;
+                    row-gap: 65px;
+                    column-gap: 16px;
+                    grid-template-columns: repeat(2, 1fr);
+                    padding: 0 87px 80px 81px;
+}
