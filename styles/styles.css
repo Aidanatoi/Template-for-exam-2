@@ -133,6 +133,7 @@
                     background-color: white;
                     width: 470px;
                     height: 160px;
+                    border: 2px solid rgba(117, 117, 117, 0.2);
 }
 .main__menu-container:active {
                     background-color: #757575;
@@ -245,4 +246,22 @@
                     margin: 0 87px 0 81px;
                     color: 
                     #FFFFFF;
+}
+
+@media (max-width: 1000px) {
+ .main__section {
+                    padding: 8px 8px 81px 8px;
+                    }
+}
+
+@media (max-width: 967px) {
+ .main__section {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    margin: 0 8px 0 8px;
+ }
+ .main__menu-container {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;}
 }
