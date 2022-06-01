@@ -265,3 +265,34 @@
                     justify-content: space-between;
                     width: 100%;}
 }
+
+@media (max-width: 770px) {
+.footer__menu-items {
+                    column-gap: 100px;
+                    margin: 39px 0 0 50px;
+}
+}
+
+@media (max-width: 699px) {
+.header__list-items {
+                    display: none;
+}
+.footer__media {
+                    margin: 19px 0 40px 80px;
+}
+.footer__data {
+                    flex-direction: column;
+}
+.footer__information {
+                    flex-direction: column;
+                    row-gap: 24px;
+}
+}
+
+@media (max-width: 699px) {
+.header__container {
+                    position: relative;
+                    left: 9px;
+}
+
+}
